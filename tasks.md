@@ -1,16 +1,19 @@
-Assignment: Building an AI Model for Water Quality Analysis
-Objective:
+# Assignment: Building an AI Model for Water Quality Analysis
+
+## Objective:
+
 To develop a model using TensorFlow/Keras for analyzing water quality data and predicting water quality .
 
-Tasks:
+## Tasks:
+
 Using this notebook as a starter - LinkLinks to an external site.
 
-Data Loading: LINK TO DATASETLinks to an external site.
+1. Data Loading: LINK TO DATASETLinks to an external site.
 
 Use the Pandas library to load the water quality dataset.
 Ensure that the dataset contains both features (X) and labels (Y).
 image.png
-Data Preprocessing:
+2. Data Preprocessing:
 
 Split the dataset into feature matrix (X) and target vector (Y).
 Verify that the features are appropriately formatted and scaled if necessary.
