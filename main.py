@@ -33,7 +33,7 @@ async def index():
 async def water_quality(request: WaterQualityRequest):
     try:
         # Load the trained model
-        with open("./water_potability_model.keras", "rb") as file:
+        with open("./model.keras", "rb") as file:
             model = pk.load(file)
 
         # Prepare the request data and turn it into
